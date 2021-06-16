@@ -1,6 +1,6 @@
-# Frontend Coffee Shop
+# Frontend Coffee Shop online store
 
-![Captura de la app](./img/Darkmode.png)
+![See the app](./landing.png)
 
 [See the aplication](https://ismaeljdz.github.io/LightDarkMode/) 👀
 
@@ -53,4 +53,4 @@ _Menciona las herramientas que utilizaste para crear tu proyecto_
 
 ---
 
-⌨️ con ❤️ por el ☕️ por [IsmaelJDzy](https://github.com/IsmaelJDz) 😊
+⌨️ con ❤️ por el ☕️ por [IsmaelJDz7](https://github.com/IsmaelJDz) 😊
