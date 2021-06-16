@@ -1,0 +1,21 @@
+Coffee Shop Schemas
+
+1.- Users
+  Name,
+  LastName,
+  Phone,
+  Email,
+  Password,
+
+2.- Coffee
+  Name,
+  Ingredients,
+  Price,
+  Type,
+  Img,
+  Desc,
+
+3.- History
+  Users
+    total,
+    currently

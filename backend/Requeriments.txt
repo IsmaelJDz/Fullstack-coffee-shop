@@ -1,0 +1,28 @@
+Back end requirements
+
+1.- Register user
+2.- User authentication
+3.- Register product coffee
+4.- Show all coffees
+5.- User profile
+
+
+Coffees
+
+Americano
+Cortado
+Espresso
+Espresso double
+Capuccino
+Late
+Mocha
+Machiato
+
+Teas
+
+Taro
+Chai
+Chai artesano
+Chai Limon
+
+Frappes

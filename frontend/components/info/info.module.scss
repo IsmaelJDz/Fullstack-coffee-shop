@@ -1,0 +1,33 @@
+.search {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 4rem;
+  width: 80%;
+  margin: 0 auto;
+  &Information {
+    max-width: 668px;
+  }
+  & a {
+    color: black;
+    border-bottom: 1px dotted;
+    text-decoration: none;
+    &:hover {
+      border-bottom: 1px double;
+      background-color: rgb(208, 208, 208);
+    }
+  }
+  & p {
+    line-height: 2rem;
+    font-style: italic;
+  }
+}
+
+.search {
+  &FirstSteps {
+    margin: 1.5rem 0;
+  }
+  &Coffees {
+    margin: 1.5rem 0;
+  }
+}

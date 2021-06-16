@@ -1,0 +1,67 @@
+.footer {
+  padding-block-start: 57px;
+  background-color: #f7f7f7;
+  &Container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 300px);
+    gap: 0.5em;
+    width: 79%;
+    margin: 0 auto;
+  }
+
+  &Menu h2 {
+    margin: 17px 0;
+  }
+
+  &Menu p {
+    color: var(--gray);
+  }
+
+  &Menu:nth-child(4) {
+    grid-column: 4 / 6;
+    text-align: left;
+  }
+
+  &List {
+    width: 80%;
+    margin: 0 auto;
+    ul {
+      padding-left: 0;
+      display: flex;
+      list-style: none;
+      & li {
+        padding: 0 1em 0 0;
+        border-right: 1px solid #b3b3b3;
+      }
+    }
+  }
+}
+
+.copyright {
+  width: 80%;
+  margin: 0 auto;
+  padding: 1rem 0;
+  font-size: 12px;
+}
+
+.byMe {
+  margin: 0;
+  font-size: 12px;
+  text-align: center;
+  background-color: #512b58;
+  padding: 0.5em;
+  color: #f7f7f7;
+  text-shadow: 1px 1px 2px rgba(150, 150, 150, 0.4);
+}
+
+.color {
+  color: red;
+}
+
+.footerList ul li:nth-child(odd) {
+  margin: 0 10px;
+}
+
+.footerList ul li:nth-last-child(1) {
+  border: none;
+}

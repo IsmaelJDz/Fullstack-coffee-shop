@@ -1,0 +1,50 @@
+.home {
+  background-image: url("../../public/img/coffee14.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 40px;
+  position: relative;
+
+  &:before {
+    content: "";
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    position: absolute;
+    z-index: 0;
+    background-image: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(46, 52, 58, 0.3) 55%,
+      rgba(7, 7, 7, 0.8) 100%
+    );
+  }
+
+  &About {
+    width: 60%;
+    margin-left: 180px;
+    max-width: 768px;
+    & h2 {
+      color: white;
+      font-style: italic;
+    }
+    & p {
+      color: white;
+      line-height: 2rem;
+    }
+  }
+}
+
+.home {
+  &Button_wrap {
+    margin: 2em 0 2em;
+    & a {
+      color: white;
+      padding: 10px;
+      border: 1px solid;
+      border-radius: 3px;
+    }
+  }
+}
