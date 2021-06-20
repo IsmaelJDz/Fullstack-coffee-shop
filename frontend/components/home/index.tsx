@@ -12,7 +12,7 @@ const Main = () => {
   return (
     <Layout>
       <>
-        <Carousel />
+        {/* <Carousel /> */}
         <Info />
         <About />
       </>

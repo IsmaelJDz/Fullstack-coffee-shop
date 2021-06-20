@@ -1,4 +1,4 @@
-# Frontend Coffee Shop online store
+# Backend Coffee Shop online store
 
 ![Captura de la app](../landing.png)
 

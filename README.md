@@ -1,4 +1,4 @@
-# Frontend Coffee Shop online store
+# FullStack Coffee Shop online store
 
 ![See the app](./landing.png)
 

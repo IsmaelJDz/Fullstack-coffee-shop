@@ -44,7 +44,7 @@ const Home = ({ children }: AuxProps) => {
 
       <Social />
 
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };
