@@ -19,7 +19,9 @@
     "react-dom": "17.0.2",
     "react-redux": "^7.2.3",
     "redux": "^4.0.5",
-    "swr": "^0.5.5"
+    "swr": "^0.5.5",
+    "i18next": "^20.2.1",
+    "react-i18next": "^11.8.13"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^4.2.4",
@@ -34,5 +36,8 @@
     "moduleNameMapper": {
       "\\.(styl|scss|css|png|jpg|svg)$": "<rootDir>/__test__/__mocks__/styleMock.js"
     }
-  }
+  },
+  "sideEffects": [
+    "./src/services/app/i18n.js"
+  ]
 }

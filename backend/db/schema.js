@@ -35,6 +35,9 @@ const typeDefs = gql`
     name: String
     price: Float
     type: String
+    img: String
+    description: String
+    ingredients: String
     createdAt: String
   }
 
@@ -61,12 +64,16 @@ const typeDefs = gql`
     name: String!
     price: Float!
     type: String!
+    img: String!
+    description: String!
+    ingredients: String
   }
 
   #Queries
   type Query {
-    getCoffee(input: CoffeesInput!): [Coffees]
-    getAllCoffees: Product
+    #getCoffee(input: CoffeesInput!): [Coffees]
+    getCoffee(id: ID!): Product
+    getAllCoffees: [Product]
     getUsers: [Users]
     getUser(token: String!): User
   }

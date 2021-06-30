@@ -9,10 +9,25 @@ const ProductSchema = mongoose.Schema({
   price: {
     type: Number,
     required: true,
+    trim: true,
   },
   type: {
     type: String,
     required: true,
+    trim: true,
+  },
+  img: {
+    type: String,
+    trim: true,
+  },
+  description: {
+    type: String,
+    required: true,
+    trim: true,
+  },
+  ingredients: {
+    type: String,
+    trim: true,
   },
   createdAt: {
     type: Date,

@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import Image from "next/image";
 
 import styles from "./info.module.scss";
@@ -17,7 +18,9 @@ const Info = () => {
           <a href="/">Primeros pasos &gt;&gt;</a>
         </div>
         <div className={styles.searchCoffees}>
-          <a href="/">Examina todos los cafés &gt;&gt;</a>
+          <Link href="/coffee/all">
+            <a>Examina todos los cafés &gt;&gt;</a>
+          </Link>
         </div>
       </div>
       <div className="Search-image">

@@ -20,6 +20,7 @@
 - Redux
 - React testing library
 - Husky
+- i18next
 
 \*\* Technologies Backend 🛠
 

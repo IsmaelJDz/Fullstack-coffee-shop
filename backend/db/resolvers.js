@@ -7,21 +7,6 @@ const utils = require('../utils/index');
 const queries = require('../queries');
 const mutations = require('../mutations');
 
-const coffees = [
-  {
-    name: 'Cappuccino',
-    price: 10,
-  },
-  {
-    name: 'Mokaccino',
-    price: 20,
-  },
-  {
-    name: 'Cappuccino express',
-    price: 55,
-  },
-];
-
 const users = [
   {
     name: 'Ismael',
@@ -37,12 +22,8 @@ const users = [
 
 const resolvers = {
   Query: {
-    getCoffee: (_, { input }, ctx) => {
-      const result = coffees.filter(
-        item => item.name === input.coffee
-      );
-      return result;
-    },
+    getAllCoffees: () => queries.getAllCoffees(),
+    getCoffee: (_, { id }, ctx) => queries.getCoffee(_, id, ctx),
     getUsers: () => users,
     getUser: (_, { token }, ctx) => queries.getUser(_, token, ctx),
   },

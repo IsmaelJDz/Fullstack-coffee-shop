@@ -1,0 +1,105 @@
+.Card {
+  border-radius: 5px;
+  box-shadow: 10px 10px 20px 0 rgba(2, 8, 22, 0.1);
+  transform: scale(0.9);
+  transition: all 500ms ease-in-out;
+  -ms-transform: scale(0.9);
+  -moz-transform: scale(0.9);
+  -webkit-transform: scale(0.9);
+  -o-transform: scale(0.9);
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+  min-height: 200px;
+  position: relative;
+  cursor: pointer;
+
+  .title {
+    text-align: center;
+    font-weight: bold;
+  }
+}
+
+.Card:hover {
+  transform: scale(1);
+  -ms-transform: scale(1);
+  -moz-transform: scale(1);
+  -webkit-transform: scale(1);
+  -o-transform: scale(1);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+
+.CardTitle {
+  width: 220px;
+  padding: 38px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1em;
+  margin: 0 auto;
+  font-family: "Open Sans";
+}
+
+.Card figure {
+  margin: 2px;
+}
+
+.Card figure img {
+  width: 420px;
+  height: 163px;
+  margin: 0;
+  text-align: center;
+  min-height: 255px;
+  border-radius: 8px;
+}
+
+.desc {
+  font-family: "Courier New", Courier, monospace;
+  position: absolute;
+  // background: rgba(0, 0, 0, 0.7);
+  color: var(--white);
+  letter-spacing: 1px;
+  bottom: 0;
+  text-align: center;
+  padding: 25px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.title {
+  font-family: "Courier New", Courier, monospace;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.7);
+  color: var(--white);
+  letter-spacing: 1px;
+  top: 10px;
+  left: 2px;
+  text-align: center;
+  padding: 5px;
+}
+
+.hide {
+  display: none;
+}
+
+.MainCard {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+/*::::::::::::::========== CARD RESPONSIVE ===========::::::::::::*/
+
+@media screen and (max-width: 482px) {
+  .Card {
+    width: 100%;
+
+    figure img {
+      width: 100%;
+    }
+  }
+}
