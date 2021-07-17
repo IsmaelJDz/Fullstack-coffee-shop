@@ -2,9 +2,10 @@ Back end requirements
 
 1.- Register user
 2.- User authentication
-3.- Register product coffee
-4.- Show all coffees
+3.- Register product coffee -> not necessary in mvp
+4.- Show all coffees -> only endpoint
 5.- User profile
+6.- History user --> every six coffee you will have a free coffee, not apply for several coffees
 
 
 Coffees
@@ -17,12 +18,3 @@ Capuccino
 Late
 Mocha
 Machiato
-
-Teas
-
-Taro
-Chai
-Chai artesano
-Chai Limon
-
-Frappes

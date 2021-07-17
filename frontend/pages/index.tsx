@@ -12,8 +12,6 @@ import MainContainer from "../components/home";
  */
 
 export default function Home(props: User) {
-  console.log(props);
-
   return <MainContainer />;
 }
 

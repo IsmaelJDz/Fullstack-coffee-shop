@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useRouter } from "next/router";
 
 import Link from "next/link";
 import Image from "next/image";
@@ -7,12 +8,15 @@ import styles from "./header.module.scss";
 import DarkLightMode from "../darkligtmode";
 
 const Header = () => {
+  const router = useRouter();
   const [isOpen, toggleMenuState] = useState(false);
 
   const handleClick = () => toggleMenuState(!isOpen);
   const closeMobileMenu = () => toggleMenuState(false);
 
-  const showModal = () => {};
+  const signIn = () => {
+    router.push("/signin-and-signup");
+  };
 
   return (
     <header className={styles.header}>
@@ -61,14 +65,14 @@ const Header = () => {
           </li>
         </ul>
       </nav>
-      {/* <div className={styles.headerUser}>
+      <div className={styles.headerUser}>
         <button
           className={styles.headerButton}
-          onClick={() => showModal()}
+          onClick={() => signIn()}
         >
           Iniciar sesión
         </button>
-      </div> */}
+      </div>
       {/* <DarkLightMode /> */}
       <div className={styles.menuIcon} onClick={handleClick}>
         <i className={isOpen ? "fas fa-times" : "fas fas fa-bars"} />

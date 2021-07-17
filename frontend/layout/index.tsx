@@ -1,9 +1,9 @@
 import React, { ReactChildren, ReactChild } from "react";
 import Head from "next/head";
 
-import Header from "../components/header";
-import Footer from "../components/footer";
-import Social from "../components/social";
+import Header from "@/components/header";
+import Footer from "@/components/footer";
+import Social from "@/components/social";
 
 /**
  *
@@ -11,10 +11,10 @@ import Social from "../components/social";
  */
 
 interface AuxProps {
-  children: ReactChild | ReactChildren;
+  children: ReactChild | ReactChildren | React.ReactNode;
 }
 
-const Home = ({ children }: AuxProps) => {
+const HomeLayout = ({ children }: AuxProps) => {
   return (
     <>
       <Head>
@@ -49,4 +49,4 @@ const Home = ({ children }: AuxProps) => {
   );
 };
 
-export default Home;
+export default HomeLayout;

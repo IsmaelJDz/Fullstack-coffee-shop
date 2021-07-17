@@ -33,7 +33,7 @@
 _Que cosas necesitas para instalar el software y como instalarlas_
 
 ```
-NodeJs, NPM
+NodeJs, NPM, Yarn
 ```
 
 ## Autores ✒️

@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import { useRouter } from "next/router";
 import { useObserver } from "../../hooks/useObserver";
 
-import ReactContentLoader from "../skeleton";
+import ReactContentLoader from "@/components/skeleton/";
 import { Coffee } from "../../ts/coffees";
 
 import styles from "./card.module.scss";

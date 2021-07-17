@@ -48,3 +48,18 @@
     }
   }
 }
+
+@media screen and (max-width: 680px) {
+  .home {
+    &About {
+      width: 100%;
+      margin-left: initial;
+      max-width: initial;
+
+      p {
+        text-align: center;
+        block-size: 100%;
+      }
+    }
+  }
+}
