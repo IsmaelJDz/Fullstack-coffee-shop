@@ -1,3 +1,5 @@
+# DEPRECATED
+
 # FullStack Coffee Shop online store
 
 ![See the app](./landing.png)
